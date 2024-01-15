@@ -14,7 +14,7 @@ results = data['data']['projects']['results']
 # Create empty list to save the data
 urls = []
 
-# Loop over dictionary in list, get id and name, and formulate url with it
+# Loop over dictionary in list, get id and name, and formulate url for each subpage
 for dict in results:
     id = str(dict.get('id'))
     name = str(dict.get('name'))
